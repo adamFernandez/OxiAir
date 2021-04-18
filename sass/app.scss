@@ -1,0 +1,56 @@
+$theme-colors: (
+  "primary":  rgb(21, 138, 247),
+  "secondary": rgba(0, 0, 0, 0.5),
+) ;
+
+$bg-color: rgb(39, 39, 39);  
+.bg-dark {
+  background-color: $bg-color;
+}
+
+
+
+.max-feat-h {
+  max-height: 1rem;
+}
+
+$home2Height: 100%;
+.home2 {
+  height: $home2Height;
+  background-color: $bg-color;
+}
+
+.absolute-bottom {
+  position: absolute;
+  bottom: 0px;
+}
+
+.verticalAlign {
+  margin-top: 20%;
+}
+
+
+// @media only screen and (max-width: 460px) {
+
+//   .carousel-caption {
+//     position: absolute !important;
+//     left: 15% !important;
+//     right: 15% !important;
+//     padding-bottom: 0.7rem !important;
+//     padding-left: 0.5rem;
+//     padding-right: 0.5rem;
+
+//     h2 {
+//       font-size: 1rem;
+//     }
+//     p {
+//       font-size: 10px;
+//     }
+//     a {
+//       font-size: 0.6rem;
+//     }
+//   }
+
+// }
+@import "../node_modules/bootstrap/scss/bootstrap";
+
